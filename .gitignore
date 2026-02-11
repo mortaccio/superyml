@@ -1,0 +1,4 @@
+/.pytest_cache
+/.venv
+/superyml.egg-info
+/tests
