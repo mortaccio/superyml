@@ -1,3 +1,15 @@
+Metadata-Version: 2.4
+Name: superform
+Version: 0.1.3
+Summary: CLI tool to validate and auto-fix structured files recursively.
+Author: superform contributors
+License-Expression: MIT
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: ruamel.yaml>=0.18.6
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0.0; extra == "dev"
+
 # superform
 
 `superform` is a CLI tool that scans structured text files from the current directory (or a provided path), validates them, and rewrites them with consistent formatting.

@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+superform/__init__.py
+superform/__main__.py
+superform/cli.py
+superform/core.py
+superform.egg-info/PKG-INFO
+superform.egg-info/SOURCES.txt
+superform.egg-info/dependency_links.txt
+superform.egg-info/entry_points.txt
+superform.egg-info/requires.txt
+superform.egg-info/top_level.txt
+tests/test_core.py

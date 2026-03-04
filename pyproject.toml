@@ -1,10 +1,10 @@
 [project]
-name = "superyml"
-version = "0.1.0"
-description = "CLI tool to check and auto-fix YAML files recursively."
+name = "superform"
+version = "0.1.3"
+description = "CLI tool to validate and auto-fix structured files recursively."
 readme = "README.md"
 requires-python = ">=3.10"
-authors = [{ name = "superyml contributors" }]
+authors = [{ name = "superform contributors" }]
 license = "MIT"
 dependencies = [
   "ruamel.yaml>=0.18.6",
@@ -16,7 +16,7 @@ dev = [
 ]
 
 [project.scripts]
-superyml = "superyml.cli:main"
+superform = "superform.cli:main"
 
 [build-system]
 requires = ["setuptools>=68.0.0"]
@@ -24,4 +24,4 @@ build-backend = "setuptools.build_meta"
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["superyml*"]
+include = ["superform*"]
